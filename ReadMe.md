@@ -1,7 +1,8 @@
 # Protobuf based efficient server application
 
 ## Purpose of the application
-This application calculates the shortest drivable distances between city locations using vehicle-generated route data. It aims to develop a robust server capable of handling multiple client requests efficiently.
+This application calculates the shortest drivable distances between city locations using vehicle-generated route data. It aims to develop a robust server capable of handling multiple client requests efficiently. [^1]
+[^1]: This project was developed for the [Effective Software](https://esw.pages.fel.cvut.cz/) course at ČVUT.
 
 ## Requirements towards the server
 - Handle TCP transmissions consisting of a 4-byte message length and a serialized protobuf message
